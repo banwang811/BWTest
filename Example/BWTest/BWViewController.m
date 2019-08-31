@@ -7,6 +7,7 @@
 //
 
 #import "BWViewController.h"
+#import "BWPrint.h"
 
 @interface BWViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    BWPrint *pt = [[BWPrint alloc] init];
+    [pt testPrint];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

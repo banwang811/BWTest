@@ -1,0 +1,6 @@
+framework module BWTest {
+  umbrella header "BWTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

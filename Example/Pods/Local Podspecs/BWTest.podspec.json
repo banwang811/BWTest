@@ -1,0 +1,22 @@
+{
+  "name": "BWTest",
+  "version": "0.1.0",
+  "summary": "Guide for private pods.",
+  "description": "This description is used to generate tags and improve search results.",
+  "homepage": "https://github.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "759919341@qq.com": "banwang811@163.com"
+  },
+  "source": {
+    "git": "https://github.com/banwang811/BWTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BWTest/Classes/*.{h,m}"
+}

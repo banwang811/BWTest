@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BWTest'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Guide for private pods.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,12 @@ This description is used to generate tags and improve search results.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BWTest/Classes/*.{h,m}'
+  s.source_files = 'BWTest/Classes/Test/*.{h,m}','BWTest/Classes/Third/*.{h}'
   
+  spec.vendored_libraries  = 'BWTest/Classes/Third/*.{a}'
+  spec.frameworks = 'SystemConfiguration','CoreGraphics','CoreTelephony','Security','CoreLocation','JavaScriptCore'
+  spec.libraries  = 'iconv','sqlite3','stdc++','z'
+  spec.dependency   'AFNetworking'
   # s.resource_bundles = {
   #   'BWTest' => ['BWTest/Assets/*.png']
   # }

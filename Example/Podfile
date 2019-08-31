@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BWTest_Example' do
+  pod 'BWTest', :path => '../'
+
+  target 'BWTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,6 +1,6 @@
 {
   "name": "BWTest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "Guide for private pods.",
   "description": "This description is used to generate tags and improve search results.",
   "homepage": "https://github.com",
@@ -13,10 +13,33 @@
   },
   "source": {
     "git": "https://github.com/banwang811/BWTest.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "BWTest/Classes/*.{h,m}"
+  "source_files": [
+    "BWTest/Classes/Test/*.{h,m}",
+    "BWTest/Classes/Third/*.{h}"
+  ],
+  "vendored_libraries": "BWTest/Classes/Third/*.{a}",
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreGraphics",
+    "CoreTelephony",
+    "Security",
+    "CoreLocation",
+    "JavaScriptCore"
+  ],
+  "libraries": [
+    "iconv",
+    "sqlite3",
+    "stdc++",
+    "z"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }

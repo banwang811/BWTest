@@ -12,6 +12,9 @@
 
 #import "BWPrint.h"
 #import "NewTest.h"
+#import "WechatAuthSDK.h"
+#import "WXApi.h"
+#import "WXApiObject.h"
 
 FOUNDATION_EXPORT double BWTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char BWTestVersionString[];

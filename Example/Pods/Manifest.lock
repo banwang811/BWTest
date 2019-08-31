@@ -14,7 +14,10 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - BWTest (0.2.0):
+  - BWTest (0.3.0):
+    - AFNetworking
+    - BWTest/BWSubTest (= 0.3.0)
+  - BWTest/BWSubTest (0.3.0):
     - AFNetworking
 
 DEPENDENCIES:
@@ -30,7 +33,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  BWTest: b6bc9456eee50a8663326d8e098e9ef18db9d12c
+  BWTest: f0836f566953276259b82764a194ae2489fb2398
 
 PODFILE CHECKSUM: 134db2dbede752aa26b66728d5082578b60e9756
 
